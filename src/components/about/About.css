@@ -1,0 +1,22 @@
+.about{
+    color: #d9d9d9;
+    text-align: left;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    font-size: 1.5rem;
+    margin-top: 6rem;
+}
+
+.about h4{
+    font-size: 3rem;
+    color: darkmagenta;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hr-line{
+    width: 3rem;
+    height: 3px;
+    background-color: darkmagenta;
+    margin: 1rem 0;
+}
