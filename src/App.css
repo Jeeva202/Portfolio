@@ -2,8 +2,8 @@
   text-align: center;
   background: linear-gradient(61deg, #37003B -0.4%, #000 34.4%, #051D4C 103.15%);
   padding: 1rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .App-logo {
