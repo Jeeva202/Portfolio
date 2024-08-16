@@ -1,0 +1,79 @@
+.loader {
+    width: fit-content;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+    background: radial-gradient(circle closest-side,#000 94%,#0000) right/calc(200% - 1em) 100%;
+    animation: l24 1s infinite alternate linear;
+  }
+  
+  .loader::before {
+    content: "Uploading soon...";
+    line-height: 1em;
+    color: #0000;
+    background: inherit;
+    background-image: radial-gradient(circle closest-side,#fff 94%,darkmagenta);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  
+  @keyframes l24 {
+    100% {
+      background-position: left
+    }
+  }
+  
+.resume h4 {
+    font-size: 3rem;
+    color: darkmagenta;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.resume {
+    padding-top: 3rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    color: #d9d9d9;
+}
+
+.hr-line {
+    width: 3rem;
+    height: 3px;
+    background-color: darkmagenta;
+    margin: 1rem 0;
+}
+
+
+.card {
+    width: 18rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: .8rem;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: #c5c5c514;
+  }
+  
+  .card__skeleton {
+    background-image: linear-gradient(90deg, #fff 0px, rgb(255 255 255 / 90%) 40px, #0a0a0a 80px);
+    background-size: 300%;
+    background-position: 100% 0;
+    border-radius: inherit;
+    animation: shimmer 1.5s infinite;
+  }
+  
+  .card__title {
+    height: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .card__description {
+    height: 100px;
+  }
+  
+  @keyframes shimmer {
+    to {
+      background-position: -100% 0;
+    }
+  }
